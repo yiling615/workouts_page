@@ -70,28 +70,28 @@
 
 /* 2. Manual Override (Higher Priority) */
 [data-theme='light'] {
-  --color-brand: var(--color-violet-600);
-  --color-secondary: var(--color-violet-500);
-  --color-bg: var(--color-neutral-100);
+  --color-brand: #2563eb; /* Bright blue primary */
+  --color-secondary: #f59e0b; /* Amber secondary */
+  --color-bg: var(--color-neutral-200);
   --color-tx: var(--color-violet-500);
   --color-hr: var(--color-neutral-300);
   --color-selected: var(--color-violet-500);
   --color-run-date: var(--color-neutral-800);
   --color-run-table-thead: var(--color-neutral-800);
-  --color-run-row-hover-background: var(--color-neutral-200);
-  --color-activity-card: var(--color-neutral-300);
-  --svg-color-inactive-cell: var(--color-neutral-600);
-  --svg-color-active-cell: var(--color-neutral-400);
-  --svg-special-color: #d4a574;
-  --svg-special-color2: #c5756b;
+  --color-run-row-hover-background: var(--color-neutral-300);
+  --color-activity-card: var(--color-neutral-400);
+  --svg-color-inactive-cell: var(--color-neutral-800);
+  --svg-color-active-cell: #2563eb;
+  --svg-special-color: #ccd94a;
+  --svg-special-color2: #bd3c00;
   --font-sans: 'IBM Plex Sans', sans-serif;
   --font-mono: 'IBM Plex Mono', monospace;
 }
 
 [data-theme='dark'] {
   /* const nike = 'rgb(224,237,94)'; */
-  --color-brand: #00ed5e;
-  --color-secondary: #00ff00;
+  --color-brand: #acbcf9;
+  --color-secondary: #ccd94a;
   --color-bg: var(--color-neutral-900);
   --color-tx: var(--color-brand);
   --color-hr: var(--color-red-500);
@@ -100,9 +100,9 @@
   --color-run-table-thead: var(--color-zinc-300);
   --color-run-row-hover-background: var(--color-neutral-800);
   --color-activity-card: var(--color-neutral-700);
-  --svg-color-active-cell: #4dd2ff;
-  --svg-special-color: #f7d02c;
-  --svg-special-color2: #f56c6c;
+  --svg-color-active-cell: #acbcf9;
+  --svg-special-color: #FFD700;
+  --svg-special-color2: #FF6347;
   --font-sans: 'IBM Plex Sans', sans-serif;
   --font-mono: 'IBM Plex Mono', monospace;
 }
