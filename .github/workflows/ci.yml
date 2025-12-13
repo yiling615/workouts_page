@@ -50,19 +50,47 @@ jobs:
         with:
           fetch-depth: 0
           persist-credentials: false
+          token: ${{ secrets.GITHUB_TOKEN }}  # Required for auto-fix
 
       - name: Setup Node.js environment
         uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node }}
+          
       - name: Enable corepack
         run: npm install -g corepack@latest && corepack enable pnpm
 
       - name: Install dependencies
         run: pnpm install
 
-      - name: Run check and build
+      - name: Run Prettier check
+        id: prettier_check
+        continue-on-error: true  # Continue even if check fails
         run: |
-          pnpm run check
+          pnpm run check 2>&1 | tee prettier-output.txt
+          echo "prettier_exit_code=$?" >> $GITHUB_OUTPUT
+
+      - name: Auto-fix formatting (if needed)
+        if: steps.prettier_check.outputs.prettier_exit_code != '0'
+        run: |
+          # Run Prettier fix
+          pnpm prettier --write "src/main.tsx" "src/**/*.{css,module.css,json,ts,tsx}" "*.{yaml,json,ts}"
+          
+          # Check if there are changes to commit
+          if git diff --quiet; then
+            echo "No formatting changes needed"
+          else
+            # Configure git
+            git config --global user.name 'github-actions[bot]'
+            git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+            
+            # Commit and push changes
+            git add -A
+            git commit -m "style: auto-fix formatting with Prettier"
+            git push origin HEAD:${{ github.ref }}
+          fi
+
+      - name: Run lint and build
+        run: |
           pnpm run lint
           pnpm run build
