@@ -82,8 +82,8 @@
   --color-activity-card: var(--color-neutral-400);
   --svg-color-inactive-cell: var(--color-neutral-800);
   --svg-color-active-cell: #2563eb;
-  --svg-special-color: #ccd94a;
-  --svg-special-color2: #bd3c00;
+  --svg-special-color: 	#FFD700;
+  --svg-special-color2: #FF0000;
   --font-sans: 'IBM Plex Sans', sans-serif;
   --font-mono: 'IBM Plex Mono', monospace;
 }
@@ -102,7 +102,7 @@
   --color-activity-card: var(--color-neutral-700);
   --svg-color-active-cell: #acbcf9;
   --svg-special-color: #FFD700;
-  --svg-special-color2: #FF6347;
+  --svg-special-color2: #FF0000;
   --font-sans: 'IBM Plex Sans', sans-serif;
   --font-mono: 'IBM Plex Mono', monospace;
 }
