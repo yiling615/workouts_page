@@ -1742,5 +1742,21 @@
 "elevation_gain": 139.0,
 "source": "strava",
 "streak": 7
+},
+{
+"run_id": 16755049681,
+"name": "\u6668\u95f4\u9a91\u884c",
+"distance": 8229.9,
+"moving_time": "0:26:42",
+"type": "Ride",
+"start_date": "2025-12-16 02:00:29+00:00",
+"start_date_local": "2025-12-16 10:00:29",
+"location_country": null,
+"summary_polyline": "akzmCmjzfUb@|@Qn@YLYUq@e@a@KI@KLk@fFAd@?p@AHMPMEA@IIMYC}@Oa@YUeAU_C[kDu@OKGSCS@UXqCBgAPqBDyAR}BJg@@MKu@OSGEc@Eq@OsDYk@GiAUMIKUAQLuAJo@D_AbCo[NqBHoBL}@F{@l@cHPcCf@cD`@w@xA{BbEgDjBuAzCmCh@_@fB}Af@[vEaE^Yh@[b@e@lB}An@c@lAeATObCoBfAs@fIqGtAkAnJqHxAaAfEmDdE_DfBmAT_@|BgBbE}Cp@m@N@JH@DANBBsM`IMGMSIAa@Fe@RoCxB[Zs@b@_a@h[iC~B{HbGeB|AuB`BaBzAo@b@_F~DgAp@m@h@kBtAcFbEo@v@_@r@AHC|@DnCOtCI|@UhDg@fFk@rHKjAEt@YzCM~AMFkAs@GMDKb@NDCF[C]U[qA{@O@SPi@v@kBfEY`@GTaAxBw@vAKHC?QSC?",
+"average_heartrate": 132.9,
+"average_speed": 5.137,
+"elevation_gain": 12.0,
+"source": "strava",
+"streak": 8
 }
 ]
