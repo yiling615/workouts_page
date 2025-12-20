@@ -273,7 +273,7 @@ export const MAP_TILE_STYLES = {
       'https://api.maptiler.com/maps/streets-v2-dark/style.json?key=',
     'outdoor-light': 'https://api.maptiler.com/maps/outdoor-v2/style.json?key=',
     'outdoor-dark':
-      'https://api.maptiler.com/maps/outdoor-v2-dark/style.json?key=',
+      'https://api.maptiler.com/maps/0197ba50-e499-7927-b803-39c68c9b5f21/style.json?key=',
     'bright-light': 'https://api.maptiler.com/maps/bright-v2/style.json?key=',
     'bright-dark':
       'https://api.maptiler.com/maps/bright-v2-dark/style.json?key=',
