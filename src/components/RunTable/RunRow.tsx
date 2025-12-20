@@ -41,22 +41,24 @@ const RunRow = ({
   };
 
   return (
-    <tr
-      className={`${styles.runRow} ${runIndex === elementIndex ? styles.selected : ''}`}
-      key={run.start_date_local}
-      onClick={handleClick}
-      style={{ color: colorFromType(type) }}
-    >
-      <td>{titleForRun(run)}</td>
-      <td>{type}</td>
-      <td>{distance}</td>
-      {SHOW_ELEVATION_GAIN && <td>{elevation_gain ?? 0.0}</td>}
-      <td>{paceParts}</td>
-      <td>{heartRate && heartRate.toFixed(0)}</td>
-      <td>{runTime}</td>
-      <td className={styles.runDate}>{run.start_date_local}</td>
-    </tr>
-  );
+  <tr
+    className={`${styles.runRow} ${runIndex === elementIndex ? styles.selected : ''}`}
+    key={run.start_date_local}
+    onClick={handleClick}
+  >
+    {/* 只有这一列使用type的颜色 */}
+    <td style={{ color: colorFromType(type) }}>{titleForRun(run)}</td>
+    
+    {/* 其他列都不设置style，会使用默认或CSS定义的颜色 */}
+    <td>{type}</td>
+    <td>{distance}</td>
+    {SHOW_ELEVATION_GAIN && <td>{elevation_gain ?? 0.0}</td>}
+    <td>{paceParts}</td>
+    <td>{heartRate && heartRate.toFixed(0)}</td>
+    <td>{runTime}</td>
+    <td className={styles.runDate}>{run.start_date_local}</td>
+  </tr>
+);
 };
 
 export default RunRow;
