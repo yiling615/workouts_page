@@ -253,7 +253,7 @@ export const COUNTRY_FILL_COLOR = dark_vanilla;
 export const MAP_TILE_VENDOR = 'maptiler';
 
 // map tiles style name, see MAP_TILE_STYLES for more details
-export const MAP_TILE_STYLE_LIGHT = 'basic-light';
+export const MAP_TILE_STYLE_LIGHT = 'outdoor-light';
 export const MAP_TILE_STYLE_DARK = 'basic-dark';
 
 // access token. you can apply a new one, it's free.
