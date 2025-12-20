@@ -237,7 +237,7 @@ export const getRuntimeSingleColor = (
 export const RUN_COLOR = [yellow, yellow_compl];
 export const RIDE_COLOR = [purple, orange];
 export const VIRTUAL_RIDE_COLOR = [veryPeri, veryPeri];
-export const HIKE_COLOR = [pink, IKB];
+export const HIKE_COLOR = [pink, purple2];
 export const SWIM_COLOR = [gold, gold];
 export const ROWING_COLOR = [cyan, cyan];
 export const ROAD_TRIP_COLOR = [purple, purple];
@@ -254,7 +254,7 @@ export const MAP_TILE_VENDOR = 'maptiler';
 
 // map tiles style name, see MAP_TILE_STYLES for more details
 export const MAP_TILE_STYLE_LIGHT = 'outdoor-light';
-export const MAP_TILE_STYLE_DARK = 'basic-dark';
+export const MAP_TILE_STYLE_DARK = 'outdoor-dark';
 
 // access token. you can apply a new one, it's free.
 // maptiler: Gt5R0jT8tuIYxW6sNrAg | sign up at https://cloud.maptiler.com/auth/widget
