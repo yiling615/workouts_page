@@ -70,7 +70,7 @@
 
 /* 2. Manual Override (Higher Priority) */
 [data-theme='light'] {
-  --color-brand: #FF8800; /* Bright blue primary */
+  --color-brand: 	#FF4500; /* Bright blue primary */
   --color-secondary: #2563eb; /* Amber secondary */
   --color-bg: var(--color-neutral-200);
   --color-tx: var(--color-violet-500);

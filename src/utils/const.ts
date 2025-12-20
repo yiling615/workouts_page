@@ -204,8 +204,8 @@ const orange = `rgb(255,69,0)`
 // If your map has an offset please change this line
 // issues #92 and #198
 export const NEED_FIX_MAP = false;
-export const MAIN_COLOR = purple;
-export const MAIN_COLOR_LIGHT = orange;
+export const MAIN_COLOR = purple2;
+export const MAIN_COLOR_LIGHT = red;
 
 // Static color constants
 export const RUN_COLOR_LIGHT = '#47b8e0';
@@ -237,7 +237,7 @@ export const getRuntimeSingleColor = (
 export const RUN_COLOR = [yellow, yellow_compl];
 export const RIDE_COLOR = [purple, orange];
 export const VIRTUAL_RIDE_COLOR = [veryPeri, veryPeri];
-export const HIKE_COLOR = [pink, pink];
+export const HIKE_COLOR = [pink, IKB];
 export const SWIM_COLOR = [gold, gold];
 export const ROWING_COLOR = [cyan, cyan];
 export const ROAD_TRIP_COLOR = [purple, purple];
