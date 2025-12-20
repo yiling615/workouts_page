@@ -235,7 +235,7 @@ export const getRuntimeSingleColor = (
 
 // Legacy export for backwards compatibility
 export const RUN_COLOR = [yellow, yellow_compl];
-export const RIDE_COLOR = [purple, orange];
+export const RIDE_COLOR = [orange, orange];
 export const VIRTUAL_RIDE_COLOR = [veryPeri, veryPeri];
 export const HIKE_COLOR = [pink, purple2];
 export const SWIM_COLOR = [gold, gold];
