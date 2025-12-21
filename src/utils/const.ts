@@ -283,7 +283,7 @@ export const MAP_TILE_STYLES = {
     'winter-dark':
       'https://api.maptiler.com/maps/winter-v2-dark/style.json?key=',
     'outdoor-light2': 
-      'https://api.maptiler.com/maps/019b3f3f-443b-74d1-953d-dd3d47838622/style.json?key=',
+      'https://api.maptiler.com/maps/019b3f57-6e37-7954-998c-bbc7c89fec29/style.json?key=',
     hybrid: 'https://api.maptiler.com/maps/hybrid/style.json?key=',
   },
 
