@@ -199,7 +199,7 @@ const purple = '#acbcf9';
 const purple2 = 'rgb(127, 34, 254)';
 const veryPeri = 'rgb(105,106,173)'; //长春花蓝
 const red = 'rgb(255,0,0)'; //大红色
-const orange = 'rgba(255, 68, 0, 0.85)';
+const orange = 'rgba(255, 69, 0, 0.9)';
 
 // If your map has an offset please change this line
 // issues #92 and #198
