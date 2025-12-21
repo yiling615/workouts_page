@@ -33,7 +33,7 @@ const GOOGLE_ANALYTICS_TRACKING_ID = '';
 // styling: set to `true` if you want dash-line route
 const USE_DASH_LINE = true;
 // styling: route line opacity: [0, 1]
-const LINE_OPACITY = 0.6;
+const LINE_OPACITY = 0.8;
 // styling: map height - responsive design
 // Use smaller height on mobile devices for better user experience
 const MAP_HEIGHT = window.innerWidth <= 768 ? 250 : 600;
@@ -271,7 +271,7 @@ export const MAP_TILE_STYLES = {
     'streets-light': 'https://api.maptiler.com/maps/streets-v2/style.json?key=',
     'streets-dark':
       'https://api.maptiler.com/maps/streets-v2-dark/style.json?key=',
-    'outdoor-light': 'https://api.maptiler.com/maps/outdoor-v2/style.json?key=',
+    'outdoor-light': 'https://api.maptiler.com/maps/019b3c80-20ba-713b-b307-26b94788ab46/style.json?key=',
     'outdoor-dark':
       'https://api.maptiler.com/maps/0197ba50-e499-7927-b803-39c68c9b5f21/style.json?key=',
     'bright-light': 'https://api.maptiler.com/maps/bright-v2/style.json?key=',
