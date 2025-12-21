@@ -259,7 +259,7 @@ export const MAP_TILE_STYLE_DARK = 'outdoor-dark';
 // access token. you can apply a new one, it's free.
 // maptiler: Gt5R0jT8tuIYxW6sNrAg | sign up at https://cloud.maptiler.com/auth/widget
 // stadiamaps: 8a769c5a-9125-4936-bdcf-a6b90cb5d0a4 | sign up at https://client.stadiamaps.com/signup/
-export const MAP_TILE_ACCESS_TOKEN = 'r3MY6ofzXPngWYrQBAp3';
+export const MAP_TILE_ACCESS_TOKEN = '3CZUPzobgbKKVkedho5N';
 
 export const MAP_TILE_STYLES = {
   maptiler: {
@@ -283,7 +283,7 @@ export const MAP_TILE_STYLES = {
     'winter-dark':
       'https://api.maptiler.com/maps/winter-v2-dark/style.json?key=',
     'outdoor-light2': 
-      'https://api.maptiler.com/maps/019b3f57-6e37-7954-998c-bbc7c89fec29/style.json?key=',
+      'https://api.maptiler.com/maps/019b3f5f-4540-734c-8129-481afa12202b/style.json?key=',
     hybrid: 'https://api.maptiler.com/maps/hybrid/style.json?key=',
   },
 
