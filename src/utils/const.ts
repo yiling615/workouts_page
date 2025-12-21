@@ -253,7 +253,7 @@ export const COUNTRY_FILL_COLOR = dark_vanilla;
 export const MAP_TILE_VENDOR = 'maptiler';
 
 // map tiles style name, see MAP_TILE_STYLES for more details
-export const MAP_TILE_STYLE_LIGHT = 'outdoor-light';
+export const MAP_TILE_STYLE_LIGHT = 'outdoor-light2';
 export const MAP_TILE_STYLE_DARK = 'outdoor-dark';
 
 // access token. you can apply a new one, it's free.
@@ -282,6 +282,8 @@ export const MAP_TILE_STYLES = {
     'winter-light': 'https://api.maptiler.com/maps/winter-v2/style.json?key=',
     'winter-dark':
       'https://api.maptiler.com/maps/winter-v2-dark/style.json?key=',
+    'outdoor-light2': 
+      'https://api.maptiler.com/maps/019b3f3f-443b-74d1-953d-dd3d47838622/style.json?key=',
     hybrid: 'https://api.maptiler.com/maps/hybrid/style.json?key=',
   },
 
