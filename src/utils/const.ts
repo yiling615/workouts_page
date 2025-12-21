@@ -271,7 +271,7 @@ export const MAP_TILE_STYLES = {
     'streets-light': 'https://api.maptiler.com/maps/streets-v2/style.json?key=',
     'streets-dark':
       'https://api.maptiler.com/maps/streets-v2-dark/style.json?key=',
-    'outdoor-light': 'https://api.maptiler.com/maps/019b3c80-20ba-713b-b307-26b94788ab46/style.json?key=',
+    'outdoor-light': 'https://api.maptiler.com/maps/019b3f3f-443b-74d1-953d-dd3d47838622/style.json?key=',
     'outdoor-dark':
       'https://api.maptiler.com/maps/0197ba50-e499-7927-b803-39c68c9b5f21/style.json?key=',
     'bright-light': 'https://api.maptiler.com/maps/bright-v2/style.json?key=',
