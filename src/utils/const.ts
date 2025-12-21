@@ -3,7 +3,7 @@ const MAPBOX_TOKEN =
   // For security reasons, please avoid using the default public token provided by Mapbox as much as possible.
   // Instead, manually add a new token and apply URL restrictions.
   // (please refer to https://github.com/yihong0618/running_page/issues/643#issuecomment-2042668580)
-  'pk.eyJ1IjoiYmVuLTI5IiwiYSI6ImNrZ3Q4Ym9mMDBqMGYyeXFvODV2dWl6YzQifQ.gSKoWF-fMjhzU67TuDezJQ';
+  'pk.eyJ1IjoiZnJrcG1hemQiLCJhIjoiY205bTQ0ZG4wMGMwdTJqcHZyeXpscW0ybiJ9.oXfYXXnmzigiOFAp37Wc2Q';
 const MUNICIPALITY_CITIES_ARR = [
   '北京市',
   '上海市',
@@ -250,11 +250,11 @@ export const COUNTRY_FILL_COLOR = dark_vanilla;
 
 // map tiles vendor, maptiler or mapbox or stadiamaps
 // if you want to use maptiler, set the access token in MAP_TILE_ACCESS_TOKEN
-export const MAP_TILE_VENDOR = 'maptiler';
+export const MAP_TILE_VENDOR = 'mapbox';
 
 // map tiles style name, see MAP_TILE_STYLES for more details
-export const MAP_TILE_STYLE_LIGHT = 'outdoor-light2';
-export const MAP_TILE_STYLE_DARK = 'outdoor-dark';
+export const MAP_TILE_STYLE_LIGHT = 'outdoor-v10';
+export const MAP_TILE_STYLE_DARK = 'dark-v10';
 
 // access token. you can apply a new one, it's free.
 // maptiler: Gt5R0jT8tuIYxW6sNrAg | sign up at https://cloud.maptiler.com/auth/widget
@@ -301,11 +301,12 @@ export const MAP_TILE_STYLES = {
   // https://docs.mapbox.com/api/maps/styles/
   mapbox: {
     'dark-v10': 'mapbox://styles/mapbox/dark-v10',
-    'dark-v11': 'mapbox://styles/mapbox/dark-v11',
+    'dark-v11': 'mapbox://styles/frkpmazd/cmjfbdkqh001301r0053y9fmb',
     'light-v10': 'mapbox://styles/mapbox/light-v10',
     'light-v11': 'mapbox://styles/mapbox/light-v11',
     'navigation-night': 'mapbox://styles/mapbox/navigation-night-v1',
     'satellite-streets-v12': 'mapbox://styles/mapbox/satellite-streets-v12',
+    'outdoor-v10': 'mapbox://styles/frkpmazd/cmjfbkqjh001401r0atdm70q2'
   },
   default: 'mapbox://styles/mapbox/dark-v10',
 };
