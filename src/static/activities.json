@@ -1902,5 +1902,37 @@
 "elevation_gain": 4.0,
 "source": "strava",
 "streak": 15
+},
+{
+"run_id": 16826003594,
+"name": "\u5348\u95f4\u9a91\u884c",
+"distance": 8942.1,
+"moving_time": "0:28:00",
+"type": "Ride",
+"start_date": "2025-12-24 04:11:31+00:00",
+"start_date_local": "2025-12-24 12:11:31",
+"location_country": "\u5e7f\u4ee5\u8def, \ud873\udd8d\u6c5f\u8857\u9053, \u91d1\u5e73\u533a, \u6c55\u5934\u5e02, \u5e7f\u4e1c\u7701, 515063, \u4e2d\u56fd",
+"summary_polyline": "opzmCyhzfUFq@p@{EFwAJmAj@cCHy@C[EO]_@MIq@IuAu@mBoAo@]w@[oDoBcDyAaAk@cCgA?O`AsLf@iHv@oJJ_A@e@\\sDZoCTaARe@`AwAzA_BvFsENGpAaAdB_Bj@c@NIZ_@TK~AqA|B{BtBeB|@m@|EoDn@g@l@k@fBqAz@y@|@m@Z]z@s@LGr@g@~AqAhBoA~J}HnHwFhDwC^YXOzEuDpAmA|@m@PAPJ?LKJYB@DDI~@@FBaA@R]Ec@NOfAs@~A{AVS^IT@PFRL\\d@Pz@H|CLnAHTh@`@L\\^vEKRGV@XLxABlALfBBp@P~A?JIR_@X_@l@_@NgARw@B_BLs@@SG[SeC_Eq@uAu@_AgDmF_@e@]o@Us@k@iAGGE?@?k@\\e@f@gBxAwAdA}@j@}@x@oEnDgLxIaAz@sFdEaAv@aFpEuAz@{C~B_EjDo@`@_BpAa@^m@b@_@b@{ArAuFhEiAr@oEtDOZOJGLKZJfCAhAIjCc@bFSvAInAq@hIy@jLCJGFG?GCaAq@KQJA\\FBCFMBa@OSg@WOK",
+"average_heartrate": 134.5,
+"average_speed": 5.323,
+"elevation_gain": 11.0,
+"source": "strava",
+"streak": 16
+},
+{
+"run_id": 16828751375,
+"name": "\u5348\u540e\u9a91\u884c",
+"distance": 6821.1,
+"moving_time": "0:20:19",
+"type": "Ride",
+"start_date": "2025-12-24 07:22:52+00:00",
+"start_date_local": "2025-12-24 15:22:52",
+"location_country": "\u667a\u6167\u8def, \ud873\udd8d\u6c5f\u8857\u9053, \u91d1\u5e73\u533a, \u6c55\u5934\u5e02, \u5e7f\u4e1c\u7701, 515063, \u4e2d\u56fd",
+"summary_polyline": "_azmCe~xfUWCKl@Wj@aAxC{DfMi@xAcAfDKd@Yn@Gj@_@hAERDFJAZm@fCaINQTCTB~@Zb@VbAb@~F|B`C`AtCpANB@CaBk@k@[o@Q_Bq@qAe@IOCi@TsAVaAxAeHBYHYf@qAz@uAZm@rAwBLOPGRBtDhAzCt@f@VF?FGBKAK_@[gA]cGaB_@S?GRe@h@aCv@cEFOTkArA_HJw@?QEMWOu@QqBUiEs@a@Ao@`@GNi@dC_@`CQR]D{HiA_F{@iDi@SSE[D[d@}Ch@aDdA}HTsBVcBPcBNq@l@}DHy@VsAx@_DjCqIJQRGt@EFBFDJXPHbBf@b@TdC~@j@\\BHAb@}@lBy@xA_@pAOvAWzEPdARb@`@d@h@Zx@RnA`@PRFXCXc@tBm@dD[xAa@fCK~@UhAO~@Mh@s@hEUT[FyAYoJwAoAW_Dc@QIKOEQ?QJw@",
+"average_heartrate": 153.8,
+"average_speed": 5.596,
+"elevation_gain": 5.0,
+"source": "strava",
+"streak": 16
 }
 ]
