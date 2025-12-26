@@ -186,7 +186,7 @@ export {
   LOADING_TEXT,
 };
 
-const nike = 'rgb(224,237,94)'; // if you want to change the main color, modify this value in src/styles/variables.scss
+const nike = 'rgb(191, 241, 251)'; // if you want to change the main color, modify this value in src/styles/variables.scss
 const yellow = 'rgb(224,237,94)';
 const yellow_compl = 'rgb(106, 94, 237)';
 const green = 'rgba(75, 237, 0, 0.9)';
@@ -235,7 +235,7 @@ export const getRuntimeSingleColor = (
 
 // Legacy export for backwards compatibility
 export const RUN_COLOR = [yellow, yellow_compl];
-export const RIDE_COLOR = [orange, orange];
+export const RIDE_COLOR = [nike, orange];
 export const VIRTUAL_RIDE_COLOR = [veryPeri, veryPeri];
 export const HIKE_COLOR = [pink, pink];
 export const SWIM_COLOR = [gold, gold];
