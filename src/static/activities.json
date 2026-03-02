@@ -2350,5 +2350,21 @@
 "elevation_gain": 53.0,
 "source": "strava",
 "streak": 1
+},
+{
+"run_id": 17565697169,
+"name": "\u665a\u95f4\u9a91\u884c",
+"distance": 5912.7,
+"moving_time": "0:17:25",
+"type": "Ride",
+"start_date": "2026-03-01 13:35:07+00:00",
+"start_date_local": "2026-03-01 21:35:07",
+"location_country": "\u5927\u5b66\u8def, \ud873\udd8d\u6c5f\u8857\u9053, \u91d1\u5e73\u533a, \u6c55\u5934\u5e02, \u5e7f\u4e1c\u7701, 515063, \u4e2d\u56fd",
+"summary_polyline": "kf{mCwe|fUE@GK@MDSVyCd@iH^wCNqBp@wCZs@\\c@x@w@Z[~BsBV]pB_BrBwA|@{@vEoDp@k@ZW|@{@bCkBbByAfCiBZQ`AaAtAkA|@m@x@s@|AiAzD_DvBaBx@u@rB{AjB{AdBmA`FaEz@m@dBsApBgB\\OnC{BnDoCTK`@a@FAF@JTCNiAVq@f@[RoFhEMBKJE@II_@s@ECOFMPQF_@d@wAhAyDvC_BrAoBvAqAfAaE|CsFlEk@^eBzAwDtCgAdAkCvBc@d@q@b@aAt@QJoAnAUJq@f@C?EBSVa@VIN{@t@c@Vq@f@u@t@iCtBaA~@{@h@yBlBk@\\gBrAe@XyAtAq@d@i@x@KZAVDlBCRBx@E`AS|BIh@IfBOtBc@~DWlESnBK~A",
+"average_heartrate": 152.3,
+"average_speed": 5.658,
+"elevation_gain": 6.0,
+"source": "strava",
+"streak": 1
 }
 ]
