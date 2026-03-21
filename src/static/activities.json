@@ -2382,5 +2382,21 @@
 "elevation_gain": 63.0,
 "source": "strava",
 "streak": 1
+},
+{
+"run_id": 17789894399,
+"name": "\u508d\u665a\u9a91\u884c",
+"distance": 6046.6,
+"moving_time": "0:19:22",
+"type": "Ride",
+"start_date": "2026-03-20 11:24:18+00:00",
+"start_date_local": "2026-03-20 19:24:18",
+"location_country": "\ud873\udd8d\u6c5f\u8857\u9053, \u91d1\u5e73\u533a, \u6c55\u5934\u5e02, \u5e7f\u4e1c\u7701, 515063, \u4e2d\u56fd",
+"summary_polyline": "_~zmCyxzfUIDSzBGnAc@jDS|CEd@DZHPLJ|@XpAVhAJr@RvATHDNNHP@HIl@w@bFYbAQdAAp@OrB]zBE\\?THPNLd@PvSdDxAd@~AVbAVtAd@vA^n@Xf@FbEnA~Ct@PH\\XTHVBNAj@ORKLQTs@ZoATuA|@iDl@sCNg@PkARk@`@cBZaA|@}ETcB^iBZsB|@{C`AoCb@wAVs@n@kDbA_FRoAh@cCz@kBL]?MKe@GQ[S}@{@_DeCcCeBc@WaA{@_CgB}@y@kAu@mA}@mFkEm@a@}BmBqBuAs@m@yAcAyAqA{@m@cA{@k@]sCcC}BeB{@w@oC}AqA{@c@QqByAwA{@a@QKMCGDMNI~BoB^W`A_A|@o@hAcA`@SpAcAlA{@LS?QQg@?e@KOSUWMMQeA{@{@eAk@e@KK?GDK`@o@Xu@b@q@BW",
+"average_heartrate": 160.2,
+"average_speed": 5.204,
+"elevation_gain": 8.0,
+"source": "strava",
+"streak": 1
 }
 ]
